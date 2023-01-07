@@ -1,0 +1,99 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("../assets/hero/codename.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+hr.garis {
+  border-top: 2px solid rgb(255, 0, 0);
+}
+
+.custom-font {
+  color: rgb(222, 222, 222);
+  text-transform: uppercase;
+}
+
+.custom-text-danger {
+  color: rgba(176, 0, 0, 0.785);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.fs-custom {
+  /* font-size: 50px; */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  opacity: 0.6;
+}
+
+.nav {
+  background-color: rgb(0, 0, 0);
+}
+
+.custom-gallery {
+  background-image: url("../assets/gallery/acuniverse.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.box {
+  background-color: rgb(0, 0, 0);
+  width: 60%;
+  border-radius: 10px;
+}
+
+.custom-btn {
+  background-color: rgb(176, 0, 0) !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.custom-padding {
+  padding-top: 13%;
+}
+
+.custom-padding-gallery {
+  padding-top: 3%;
+  margin-top: 5%;
+}
+
+.custom-padding-feature {
+  padding-top: 5%;
+  margin-bottom: 8%;
+}
+
+.custom-fs {
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #121212;
+  padding: 10px;
+}
+
+@media screen and (max-width: 998px) {
+  .col2 {
+    order: 1;
+  }
+
+  .col1 {
+    order: 2;
+  }
+
+  .custom-title {
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+}
