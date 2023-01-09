@@ -73,9 +73,32 @@ hr.garis {
   font-size: 14px;
 }
 
-.footer {
+footer {
   background-color: #121212;
   padding: 10px;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+.custom-a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.custom-a:hover,
+.custom-a:focus {
+  color: #fff;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
 }
 
 @media screen and (max-width: 998px) {

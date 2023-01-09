@@ -16,9 +16,9 @@ const Foto2 = () => {
               <Card.Body>
                 <Card.Title className="fs-5 mb-5">Assassins Creed Odyssey</Card.Title>
                 <Card.Title>
-                  <div className="d-flex gap-2">
-                    <i className="fa-brands fa-xbox text-secondary"></i>
-                    <i className="fa-brands fa-playstation text-secondary"></i>
+                  <div className="d-flex gap-4">
+                    <i className="fa-brands fa-xbox text-secondary fs-6"></i>
+                    <i className="fa-brands fa-playstation text-secondary fs-6"></i>
                   </div>
                 </Card.Title>
               </Card.Body>
@@ -30,10 +30,10 @@ const Foto2 = () => {
               <Card.Body>
                 <Card.Title className="fs-5 mb-5">Assassins Creed Origins</Card.Title>
                 <Card.Title>
-                  <div className="d-flex gap-2">
-                    <i className="fa-brands fa-xbox text-secondary"></i>
-                    <i className="fa-brands fa-windows text-secondary"></i>
-                    <i className="fa-brands fa-playstation text-secondary"></i>
+                  <div className="d-flex gap-4">
+                    <i className="fa-brands fa-xbox text-secondary fs-6"></i>
+                    <i className="fa-brands fa-windows text-secondary fs-6"></i>
+                    <i className="fa-brands fa-playstation text-secondary fs-6"></i>
                   </div>
                 </Card.Title>
               </Card.Body>
@@ -45,10 +45,10 @@ const Foto2 = () => {
               <Card.Body>
                 <Card.Title className="fs-5 mb-5">Assassins Creed Rogue</Card.Title>
                 <Card.Title>
-                  <div className="d-flex gap-2">
-                    <i className="fa-brands fa-xbox text-secondary"></i>
-                    <i className="fa-brands fa-windows text-secondary"></i>
-                    <i className="fa-brands fa-playstation text-secondary"></i>
+                  <div className="d-flex gap-4">
+                    <i className="fa-brands fa-xbox text-secondary fs-6"></i>
+                    <i className="fa-brands fa-windows text-secondary fs-6"></i>
+                    <i className="fa-brands fa-playstation text-secondary fs-6"></i>
                   </div>
                 </Card.Title>
               </Card.Body>
@@ -60,8 +60,9 @@ const Foto2 = () => {
               <Card.Body>
                 <Card.Title className="fs-5 mb-5">Assassins Creed Unity</Card.Title>
                 <Card.Title>
-                  <div className="d-flex gap-2">
-                    <i className="fa-brands fa-xbox text-secondary"></i>
+                  <div className="d-flex gap-4">
+                    <i className="fa-brands fa-xbox text-secondary fs-6"></i>
+                    <i className="fa-brands fa-playstation text-secondary fs-6"></i>
                   </div>
                 </Card.Title>
               </Card.Body>
