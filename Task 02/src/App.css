@@ -83,13 +83,22 @@ nav .container-fluid .row:nth-child(2) .col-sm-6 ul li a:hover {
   animation: none;
 }
 
+.planet li {
+  list-style-type: none;
+}
+
+.planet li sup {
+  font-size: 9px;
+}
+
 .planet-img {
   height: 350px;
+  cursor: pointer;
 }
 
 section {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("./assets/bg/5.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/bg/1.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -116,5 +125,11 @@ section {
   }
   50% {
     transform: translateY(-10px);
+  }
+}
+
+@media all and (max-width: 998px) {
+  .custom-box {
+    flex-direction: column;
   }
 }
