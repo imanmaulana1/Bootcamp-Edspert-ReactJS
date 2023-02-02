@@ -1,0 +1,36 @@
+.hero {
+  background-color: #152a46;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper .wrapper-text {
+  padding-top: 5%;
+}
+
+.custom-image {
+  width: 600px;
+}
+
+.content {
+  padding-top: 8%;
+  background-color: rgb(249, 252, 255);
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-form {
+  width: 30%;
+}
+
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}

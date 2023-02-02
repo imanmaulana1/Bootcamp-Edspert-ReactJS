@@ -1,0 +1,21 @@
+footer{
+    padding-top: 5%;
+    padding-bottom: 15%
+}
+
+.custom-font{
+    font-size: 0.8rem;
+    width: 70%;
+}
+
+.custom-box-program{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.custom-box-program a{
+    text-decoration: none;
+    color: rgb(135, 135, 135);
+}
+
